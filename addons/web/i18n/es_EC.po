@@ -1576,8 +1576,8 @@ msgstr "Objeto:"
 #: code:addons/web/static/src/js/framework/dialog.js:37
 #: model_terms:ir.ui.view,arch_db:web.layout
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Modules Now"
+msgstr "Modules Now"
 
 #. module: web
 #. openerp-web
