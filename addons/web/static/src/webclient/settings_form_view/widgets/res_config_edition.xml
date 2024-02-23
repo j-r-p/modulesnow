@@ -4,7 +4,7 @@
         <Setting addLabel="false">
                 <div class="user-heading">
                     <h3 class="px-0">
-                        ModulesNow <t t-esc="serverVersion"/>
+                        Modules Now <t t-esc="serverVersion"/>
                         (Community Edition)
                     </h3>
                 </div>
