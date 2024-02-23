@@ -1441,10 +1441,10 @@ msgstr "Before scheduled date"
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Modules Now "
 "responsibility."
 msgstr ""
-"Tekst ispod služi kao sugestija i ne obavezuje Odoo S.A. na odgovornost."
+"Tekst ispod služi kao sugestija i ne obavezuje Modules Now na odgovornost."
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__res_partner__picking_warn__block

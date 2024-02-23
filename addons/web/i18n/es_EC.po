@@ -227,8 +227,8 @@ msgstr "<span class=\"oe_logo_edit\">Editar Datos de Compañía</span>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.menu_secondary
-msgid "<span>Odoo</span>"
-msgstr "<span>Odoo</span>"
+msgid "<span>ModulesNow</span>"
+msgstr "<span>ModulesNow</span>"
 
 #. module: web
 #. openerp-web
@@ -576,8 +576,8 @@ msgstr "Contexto:"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:116
 #, python-format
-msgid "Copyright © 2004-2015 Odoo S.A."
-msgstr "Derechos reservados © 2004-2015 Odoo S.A."
+msgid "Copyright © 2004-2015 Modules Now"
+msgstr "Derechos reservados © 2004-2015 Modules Now"
 
 #. module: web
 #. openerp-web
@@ -1604,8 +1604,8 @@ msgstr "Odoo Enterprise"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:117
 #, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "Modules Now"
+msgstr "Modules Now"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.qunit_suite
@@ -1782,8 +1782,8 @@ msgstr "Desarrollado por"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Desarrollado por <span>Odoo</span>"
+msgid "Powered by <span>ModulesNow</span>"
+msgstr "Desarrollado por <span>ModulesNow</span>"
 
 #. module: web
 #. openerp-web

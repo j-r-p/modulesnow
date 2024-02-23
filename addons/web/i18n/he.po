@@ -5129,7 +5129,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #, python-format
-msgid "Odoo S.A."
+msgid "Modules Now"
 msgstr "יישומי Odoo"
 
 #. module: web
@@ -5562,8 +5562,8 @@ msgstr "מופעל ע\"י %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "מופעל ע\"י <span>Odoo</span>"
+msgid "Powered by <span>ModulesNow</span>"
+msgstr "מופעל ע\"י <span>ModulesNow</span>"
 
 #. module: web
 #. odoo-javascript

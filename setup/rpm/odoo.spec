@@ -13,11 +13,11 @@ Group: Development/Libraries
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Prefix: %{_prefix}
 BuildArch: noarch
-Vendor: Odoo S.A. <info@odoo.com>
+Vendor: Modules Now <info@odoo.com>
 Requires: sassc
 BuildRequires: python3-devel
 BuildRequires: pyproject-rpm-macros
-Url: https://www.odoo.com
+Url: https://www.modulesnow.com
 
 %description
 Odoo is a complete ERP and CRM. The main features are accounting (analytic

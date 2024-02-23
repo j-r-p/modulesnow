@@ -13670,7 +13670,7 @@ QUnit.module("Views", (hooks) => {
         assert.hasAttrValue(
             target.querySelector(".o_doc_link"),
             "href",
-            "https://www.odoo.com/documentation/1.0/applications/technical/web/settings/this_is_a_test.html"
+            "https://www.modulesnow.com/documentation/1.0/applications/technical/web/settings/this_is_a_test.html"
         );
         assert.containsOnce(target, ".btn-link[name='buttonName']");
     });

@@ -1,7 +1,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Luxembourg - Accounting',
-    'website': 'https://www.odoo.com/documentation/17.0/applications/finance/fiscal_localizations/luxembourg.html',
+    'website': 'https://www.modulesnow.com/documentation/17.0/applications/finance/fiscal_localizations/luxembourg.html',
     'icon': '/account/static/description/l10n.png',
     'countries': ['lu'],
     'version': '2.2',
@@ -20,7 +20,7 @@ Notes:
       see the first sheet of tax.xls for details of coverage
     * to update the chart of tax template, update tax.xls and run tax2csv.py
 """,
-    'author': 'Odoo S.A., ADN, ACSONE SA/NV',
+    'author': 'Modules Now, ADN, ACSONE SA/NV',
     'depends': [
         'account',
         'base_iban',

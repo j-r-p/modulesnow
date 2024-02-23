@@ -26,7 +26,7 @@ The version of the API implemented by this module is v2.
 ## Merge details
 
 The first version of the module was specified in task
-[2946329](https://www.odoo.com/web#id=2759117&model=project.task) and merged with PR
+[2946329](https://www.modulesnow.com/web#id=2759117&model=project.task) and merged with PR
 odoo/odoo#141661 in branch `17.0`.
 
 ## Testing instructions

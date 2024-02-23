@@ -71,7 +71,7 @@ class TestMailRenderMixin(common.HttpCase):
         self.assertRegex(created_short_url, "{base_url}/r/[\\w]+".format(base_url=self.base_url))
 
         new_content = self.env["mail.render.mixin"]._shorten_links(
-            'Reusing this old <a href="{old_short_url}">link</a> with a new <a href="https://odoo.com">one</a>'
+            'Reusing this old <a href="{old_short_url}">link</a> with a new <a href="https://modulesnow.com">one</a>'
             .format(old_short_url=created_short_url),
             {}
         )
@@ -144,7 +144,7 @@ class TestMailRenderMixin(common.HttpCase):
         self.assertRegex(created_short_url, "{base_url}/r/[\\w]+".format(base_url=self.base_url))
 
         new_content = self.env["mail.render.mixin"]._shorten_links_text(
-            'Reusing this old link {old_short_url} with a new one, https://odoo.com</a>'
+            'Reusing this old link {old_short_url} with a new one, https://modulesnow.com</a>'
             .format(old_short_url=created_short_url),
             {}
         )

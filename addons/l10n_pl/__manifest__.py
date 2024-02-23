@@ -4,8 +4,8 @@
     'icon': '/account/static/description/l10n.png',
     'countries': ['pl'],
     'version': '2.0',
-    'author': 'Odoo S.A., Grzegorz Grzelak (OpenGLOBE) (http://www.openglobe.pl)',
-    'website': 'https://www.odoo.com/documentation/17.0/applications/finance/fiscal_localizations.html',
+    'author': 'Modules Now, Grzegorz Grzelak (OpenGLOBE) (http://www.openglobe.pl)',
+    'website': 'https://www.modulesnow.com/documentation/17.0/applications/finance/fiscal_localizations.html',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
 This is the module to manage the accounting chart and taxes for Poland in Odoo.

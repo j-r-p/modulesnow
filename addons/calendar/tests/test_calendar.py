@@ -28,7 +28,7 @@ class TestCalendar(SavepointCaseWithUserDemo):
             'stop': '2011-04-30 18:30:00',
             'description': 'The Technical Presentation will cover following topics:\n* Creating Odoo class\n* Views\n* Wizards\n* Workflows',
             'duration': 2.5,
-            'location': 'Odoo S.A.',
+            'location': 'Modules Now',
             'name': 'Technical Presentation'
         })
 
@@ -459,7 +459,7 @@ class TestCalendarTours(HttpCaseWithUserDemo):
             'start': start.strftime("%Y-%m-%d %H:%M:%S"),
             'stop': stop.strftime("%Y-%m-%d %H:%M:%S"),
             'duration': 3,
-            'location': 'Odoo S.A.',
+            'location': 'Modules Now',
             'privacy': 'public',
             'show_as': 'busy',
         })
@@ -483,7 +483,7 @@ class TestCalendarTours(HttpCaseWithUserDemo):
             'start': start.strftime("%Y-%m-%d %H:%M:%S"),
             'stop': stop.strftime("%Y-%m-%d %H:%M:%S"),
             'duration': 3,
-            'location': 'Odoo S.A.',
+            'location': 'Modules Now',
             'privacy': 'public',
             'show_as': 'busy',
         })
@@ -508,7 +508,7 @@ class TestCalendarTours(HttpCaseWithUserDemo):
             'start': start.strftime("%Y-%m-%d %H:%M:%S"),
             'stop': stop.strftime("%Y-%m-%d %H:%M:%S"),
             'duration': 3,
-            'location': 'Odoo S.A.',
+            'location': 'Modules Now',
             'privacy': 'public',
             'show_as': 'busy',
         })

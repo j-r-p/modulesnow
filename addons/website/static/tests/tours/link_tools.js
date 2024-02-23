@@ -168,11 +168,11 @@ wTourUtils.registerWebsitePreviewTour('link_tools', {
     {
         content: "Enter an URL",
         trigger: "#o_link_dialog_url_input",
-        run: "text https://www.odoo.com",
+        run: "text https://www.modulesnow.com",
     },
     {
         content: "Check nothing is lost",
-        trigger: "iframe header .s_mega_menu_cards a[href='https://www.odoo.com']:has(img):has(h4):has(p)",
+        trigger: "iframe header .s_mega_menu_cards a[href='https://www.modulesnow.com']:has(img):has(h4):has(p)",
         isCheck: true,
     },
     // 7. Create new a link from a URL-like text.
@@ -208,11 +208,11 @@ wTourUtils.registerWebsitePreviewTour('link_tools', {
     {
         content: "Change URL to https",
         trigger: "#o_link_dialog_url_input",
-        run: 'text https://odoo.com',
+        run: 'text https://modulesnow.com',
     },
     {
         content: "Check that link was updated",
-        trigger: "iframe .s_text_image p a[href='https://odoo.com']:contains('odoo.com')",
+        trigger: "iframe .s_text_image p a[href='https://modulesnow.com']:contains('odoo.com')",
         isCheck: true,
     },
     {

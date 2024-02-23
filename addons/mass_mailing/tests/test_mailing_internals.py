@@ -591,7 +591,7 @@ Email: <a id="url5" href="mailto:test@odoo.com">test@odoo.com</a></div>""",
             new_mail = self._find_mail_mail_wrecord(contact)
             for link_info in [('url0', 'https://www.odoo.tz/my/%s' % contact.name, True),
                               ('url1', 'https://www.odoo.be', True),
-                              ('url2', 'https://www.odoo.com', True),
+                              ('url2', 'https://www.modulesnow.com', True),
                               ('url3', 'https://www.odoo.eu', True),
                               ('url4', 'https://www.example.com/foo/bar?baz=qux', True),
                               ('url5', 'mailto:test@odoo.com', False)]:

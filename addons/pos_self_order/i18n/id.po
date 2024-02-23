@@ -1370,8 +1370,8 @@ msgstr "kosong = semua POS"
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
-msgid "https://odoo.com"
-msgstr "https://odoo.com"
+msgid "https://modulesnow.com"
+msgstr "https://modulesnow.com"
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree

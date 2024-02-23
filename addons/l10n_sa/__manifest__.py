@@ -4,12 +4,12 @@
     'icon': '/account/static/description/l10n.png',
     'countries': ['sa'],
     'version': '2.0',
-    'author': 'Odoo S.A., DVIT.ME (http://www.dvit.me)',
+    'author': 'Modules Now, DVIT.ME (http://www.dvit.me)',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
 Odoo Arabic localization for most Saudi Arabia.
 """,
-    'website': 'https://www.odoo.com/documentation/17.0/applications/finance/fiscal_localizations/saudi_arabia.html',
+    'website': 'https://www.modulesnow.com/documentation/17.0/applications/finance/fiscal_localizations/saudi_arabia.html',
     'depends': [
         'l10n_gcc_invoice',
         'account',

@@ -17,18 +17,18 @@ QUnit.test("Search highlight", async (assert) => {
             searchTerm: "odoo",
         },
         {
-            input: '<a href="https://www.odoo.com">https://www.odoo.com</a>',
-            output: `<a href="https://www.odoo.com">https://www.<span class="${HIGHLIGHT_CLASS}">odoo</span>.com</a>`,
+            input: '<a href="https://www.modulesnow.com">https://www.modulesnow.com</a>',
+            output: `<a href="https://www.modulesnow.com">https://www.<span class="${HIGHLIGHT_CLASS}">odoo</span>.com</a>`,
             searchTerm: "odoo",
         },
         {
-            input: '<a href="https://www.odoo.com">Odoo</a>',
-            output: `<a href="https://www.odoo.com"><span class="${HIGHLIGHT_CLASS}">Odoo</span></a>`,
+            input: '<a href="https://www.modulesnow.com">ModulesNow</a>',
+            output: `<a href="https://www.modulesnow.com"><span class="${HIGHLIGHT_CLASS}">ModulesNow</span></a>`,
             searchTerm: "odoo",
         },
         {
-            input: '<a href="https://www.odoo.com">Odoo</a> Odoo is a free software',
-            output: `<a href="https://www.odoo.com"><span class="${HIGHLIGHT_CLASS}">Odoo</span></a> <span class="${HIGHLIGHT_CLASS}">Odoo</span> is a free software`,
+            input: '<a href="https://www.modulesnow.com">ModulesNow</a> Odoo is a free software',
+            output: `<a href="https://www.modulesnow.com"><span class="${HIGHLIGHT_CLASS}">ModulesNow</span></a> <span class="${HIGHLIGHT_CLASS}">ModulesNow</span> is a free software`,
             searchTerm: "odoo",
         },
         {
@@ -43,18 +43,18 @@ QUnit.test("Search highlight", async (assert) => {
         },
         {
             input: `<ul>
-                <li>Odoo</li>
-                <li><a href="https://odoo.com">Odoo ERP</a> Best ERP</li>
+                <li>ModulesNow</li>
+                <li><a href="https://modulesnow.com">Odoo ERP</a> Best ERP</li>
             </ul>`,
             output: `<ul>
-                <li><span class="${HIGHLIGHT_CLASS}">Odoo</span></li>
-                <li><a href="https://odoo.com"><span class="${HIGHLIGHT_CLASS}">Odoo</span> ERP</a> Best ERP</li>
+                <li><span class="${HIGHLIGHT_CLASS}">ModulesNow</span></li>
+                <li><a href="https://modulesnow.com"><span class="${HIGHLIGHT_CLASS}">ModulesNow</span> ERP</a> Best ERP</li>
             </ul>`,
             searchTerm: "odoo",
         },
         {
-            input: "test <strong>Odoo</strong> test",
-            output: `<span class="${HIGHLIGHT_CLASS}">test</span> <strong><span class="${HIGHLIGHT_CLASS}">Odoo</span></strong> <span class="${HIGHLIGHT_CLASS}">test</span>`,
+            input: "test <strong>ModulesNow</strong> test",
+            output: `<span class="${HIGHLIGHT_CLASS}">test</span> <strong><span class="${HIGHLIGHT_CLASS}">ModulesNow</span></strong> <span class="${HIGHLIGHT_CLASS}">test</span>`,
             searchTerm: "odoo test",
         },
         {

@@ -43,7 +43,7 @@
     }, {
         content: "Complete Company",
         trigger: "input[name=partner_name]",
-        run: "text Odoo S.A."
+        run: "text Modules Now"
     }, {
         content: "Complete Subject",
         trigger: "input[name=name]",

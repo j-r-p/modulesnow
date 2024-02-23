@@ -1118,8 +1118,8 @@ msgstr "مثال: تزيين OpenWood "
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form
-msgid "e.g. : https://www.odoo.com"
-msgstr "مثال: https://www.odoo.com "
+msgid "e.g. : https://www.modulesnow.com"
+msgstr "مثال: https://www.modulesnow.com "
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form

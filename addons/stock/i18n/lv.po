@@ -1355,10 +1355,10 @@ msgstr ""
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Modules Now "
 "responsibility."
 msgstr ""
-"Tālāk tekstā sniegtais teksts kalpo kā ieteikums un neuzņemas Odoo S.A. "
+"Tālāk tekstā sniegtais teksts kalpo kā ieteikums un neuzņemas Modules Now "
 "atbildību."
 
 #. module: stock

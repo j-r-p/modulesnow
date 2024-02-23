@@ -90,8 +90,8 @@ print the CLA, complete it, sign it, scan it and send it by email to
 `cla-submission` `at` `odoo.com`.  In that case someone from the Odoo team will
 make the pull request on your behalf.
 
-* Printable Odoo CCLA v1.0 https://www.odoo.com/files/legal/Odoo-CCLA-v1.0.pdf
-* Printable Odoo ICLA v1.0 https://www.odoo.com/files/legal/Odoo-ICLA-v1.0.pdf
+* Printable Odoo CCLA v1.0 https://www.modulesnow.com/files/legal/Odoo-CCLA-v1.0.pdf
+* Printable Odoo ICLA v1.0 https://www.modulesnow.com/files/legal/Odoo-ICLA-v1.0.pdf
 
 # FAQ
 
@@ -122,7 +122,7 @@ can be found on the Apache website.
 
 This CLA is not a copyright assignment, it is a pure license agreement. You
 keep the full copyright for your contributions, you simply provide an
-irrevocable license to the project maintainer, Odoo S.A. to use, modify and
+irrevocable license to the project maintainer, Modules Now to use, modify and
 distribute your contributions without further restrictions.
 
 ## How does it work?

@@ -37,12 +37,12 @@ class TestLinkTracker(common.TransactionCase, MockLinkTracker):
 
     def test_search_or_create(self):
         link_tracker_1 = self.env['link.tracker'].create({
-            'url': 'https://odoo.com',
+            'url': 'https://modulesnow.com',
             'title': 'Odoo',
         })
 
         link_tracker_2 = self.env['link.tracker'].search_or_create({
-            'url': 'https://odoo.com',
+            'url': 'https://modulesnow.com',
             'title': 'Odoo',
         })
 
@@ -59,7 +59,7 @@ class TestLinkTracker(common.TransactionCase, MockLinkTracker):
         campaign_id = self.env['utm.campaign'].search([], limit=1)
 
         self.env['link.tracker'].create({
-            'url': 'https://odoo.com',
+            'url': 'https://modulesnow.com',
             'title': 'Odoo',
         })
 
@@ -71,7 +71,7 @@ class TestLinkTracker(common.TransactionCase, MockLinkTracker):
 
         with self.assertRaises(UserError):
             self.env['link.tracker'].create({
-                'url': 'https://odoo.com',
+                'url': 'https://modulesnow.com',
                 'title': 'Odoo',
             })
 

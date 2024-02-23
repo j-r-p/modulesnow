@@ -3189,10 +3189,10 @@ msgstr "Predtým"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Modules Now "
 "responsibility."
 msgstr ""
-"Nižšie uvedený text slúži ako návrh a nezaväzuje spoločnosť Odoo S.A. k "
+"Nižšie uvedený text slúži ako návrh a nezaväzuje spoločnosť Modules Now k "
 "zodpovednosti."
 
 #. module: account

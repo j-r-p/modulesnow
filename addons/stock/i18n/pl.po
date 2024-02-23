@@ -1416,7 +1416,7 @@ msgstr "Przed zaplanowaną datą"
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Modules Now "
 "responsibility."
 msgstr ""
 "Poniższy tekst służy jako sugestia i nie wiąże się z odpowiedzialnością Odoo"

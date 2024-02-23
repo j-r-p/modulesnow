@@ -297,7 +297,7 @@ msgstr "ejem. Motor de Búsqueda, Página de Sitio Web, .."
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
-msgid "e.g. https://www.odoo.com/contactus"
+msgid "e.g. https://www.modulesnow.com/contactus"
 msgstr ""
 
 #. module: website_links

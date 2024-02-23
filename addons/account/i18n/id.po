@@ -3374,11 +3374,11 @@ msgstr "Sebelum"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Modules Now "
 "responsibility."
 msgstr ""
 "Teks di bawah berfungsi sebagai saran dan penggunaannya tidak merupakan "
-"tanggung jawab Odoo S.A."
+"tanggung jawab Modules Now"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__bank_bic

@@ -1427,7 +1427,7 @@ msgstr "在安排日期之前"
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Modules Now "
 "responsibility."
 msgstr "以下文本仅作为建议，ERP 公司不承担责任."
 

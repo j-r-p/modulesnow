@@ -1,11 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Sweden - Accounting',
-    'website': 'https://www.odoo.com/documentation/17.0/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.modulesnow.com/documentation/17.0/applications/finance/fiscal_localizations.html',
     'icon': '/account/static/description/l10n.png',
     'countries': ['se'],
     'version': '1.0',
-    'author': 'XCLUDE, Odoo S.A.',
+    'author': 'XCLUDE, Modules Now',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
 Swedish Accounting

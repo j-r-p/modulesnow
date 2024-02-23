@@ -57,7 +57,7 @@ QUnit.test("addLink: utility function and special entities", function (assert) {
         // special character in smileys should be escaped
         "&lt;3": "&lt;3",
         // Already encoded url should not be encoded twice
-        "https://odoo.com/%5B%5D": `<a target="_blank" rel="noreferrer noopener" href="https://odoo.com/%5B%5D">https://odoo.com/[]</a>`,
+        "https://modulesnow.com/%5B%5D": `<a target="_blank" rel="noreferrer noopener" href="https://modulesnow.com/%5B%5D">https://modulesnow.com/[]</a>`,
     };
 
     for (const [content, result] of Object.entries(testInputs)) {
@@ -109,7 +109,7 @@ QUnit.test("url", async () => {
     const { openDiscuss } = await start();
     await openDiscuss(channelId);
     // see: https://www.ietf.org/rfc/rfc1738.txt
-    const messageBody = "https://odoo.com?test=~^|`{}[]#";
+    const messageBody = "https://modulesnow.com?test=~^|`{}[]#";
     await insertText(".o-mail-Composer-input", messageBody);
     await click("button:enabled", { text: "Send" });
     await contains(".o-mail-Message a", { text: messageBody });
@@ -120,10 +120,10 @@ QUnit.test("url with comma at the end", async () => {
     const channelId = pyEnv["discuss.channel"].create({ name: "General" });
     const { openDiscuss } = await start();
     await openDiscuss(channelId);
-    const messageBody = "Go to https://odoo.com, it's great!";
+    const messageBody = "Go to https://modulesnow.com, it's great!";
     await insertText(".o-mail-Composer-input", messageBody);
     await click("button:enabled", { text: "Send" });
-    await contains(".o-mail-Message a", { text: "https://odoo.com" });
+    await contains(".o-mail-Message a", { text: "https://modulesnow.com" });
     await contains(".o-mail-Message-content", { text: messageBody });
 });
 
@@ -132,10 +132,10 @@ QUnit.test("url with dot at the end", async () => {
     const channelId = pyEnv["discuss.channel"].create({ name: "General" });
     const { openDiscuss } = await start();
     await openDiscuss(channelId);
-    const messageBody = "Go to https://odoo.com. It's great!";
+    const messageBody = "Go to https://modulesnow.com. It's great!";
     await insertText(".o-mail-Composer-input", messageBody);
     await click("button:enabled", { text: "Send" });
-    await contains(".o-mail-Message a", { text: "https://odoo.com" });
+    await contains(".o-mail-Message a", { text: "https://modulesnow.com" });
     await contains(".o-mail-Message-content", { text: messageBody });
 });
 
@@ -144,10 +144,10 @@ QUnit.test("url with semicolon at the end", async () => {
     const channelId = pyEnv["discuss.channel"].create({ name: "General" });
     const { openDiscuss } = await start();
     await openDiscuss(channelId);
-    const messageBody = "Go to https://odoo.com; it's great!";
+    const messageBody = "Go to https://modulesnow.com; it's great!";
     await insertText(".o-mail-Composer-input", messageBody);
     await click("button:enabled", { text: "Send" });
-    await contains(".o-mail-Message a", { text: "https://odoo.com" });
+    await contains(".o-mail-Message a", { text: "https://modulesnow.com" });
     await contains(".o-mail-Message-content", { text: messageBody });
 });
 
@@ -156,10 +156,10 @@ QUnit.test("url with ellipsis at the end", async () => {
     const channelId = pyEnv["discuss.channel"].create({ name: "General" });
     const { openDiscuss } = await start();
     await openDiscuss(channelId);
-    const messageBody = "Go to https://odoo.com... it's great!";
+    const messageBody = "Go to https://modulesnow.com... it's great!";
     await insertText(".o-mail-Composer-input", messageBody);
     await click("button:enabled", { text: "Send" });
-    await contains(".o-mail-Message a", { text: "https://odoo.com" });
+    await contains(".o-mail-Message a", { text: "https://modulesnow.com" });
     await contains(".o-mail-Message-content", { text: messageBody });
 });
 

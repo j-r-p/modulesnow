@@ -33,15 +33,15 @@ QUnit.test("click a web link", async (assert) => {
     const data = {
         sheets: [
             {
-                cells: { A1: { content: "[Odoo](https://odoo.com)" } },
+                cells: { A1: { content: "[Odoo](https://modulesnow.com)" } },
             },
         ],
     };
     const model = new Model(data, { custom: { env } });
     const cell = getEvaluatedCell(model, "A1");
-    assert.strictEqual(urlRepresentation(cell.link, model.getters), "https://odoo.com");
+    assert.strictEqual(urlRepresentation(cell.link, model.getters), "https://modulesnow.com");
     openLink(cell.link, env);
-    assert.verifySteps(["https://odoo.com"]);
+    assert.verifySteps(["https://modulesnow.com"]);
 });
 
 QUnit.test("click a menu link", async (assert) => {
