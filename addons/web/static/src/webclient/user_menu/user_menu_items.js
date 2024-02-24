@@ -89,7 +89,7 @@ function odooAccountItem(env) {
     return {
         type: "item",
         id: "account",
-        description: _t("My Odoo.com account"),
+        description: _t("My Modulesnow.com account"),
         callback: () => {
             env.services
                 .rpc("/web/session/account")
@@ -97,7 +97,7 @@ function odooAccountItem(env) {
                     browser.open(url, "_blank");
                 })
                 .catch(() => {
-                    browser.open("https://accounts.odoo.com/account", "_blank");
+                    browser.open("https://accounts.modulesnow.com/account", "_blank");
                 });
         },
         sequence: 60,
